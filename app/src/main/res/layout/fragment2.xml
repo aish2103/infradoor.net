@@ -1,0 +1,51 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/whitebricks"
+    tools:context="app.example.com.infradoor.fragment1">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center_horizontal|top">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+
+            android:layout_weight="0.30">
+
+            <ImageButton
+                android:layout_width="250dp"
+                android:layout_height="200dp"
+
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:id="@+id/wallbutton1" />
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_weight="0.30"
+            android:layout_height="0dp">
+            <ImageButton
+                android:layout_width="250dp"
+                android:layout_height="200dp"
+
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:id="@+id/wallbutton2" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</FrameLayout>

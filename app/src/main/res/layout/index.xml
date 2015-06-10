@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100"
+    android:background="@drawable/whitebricks"
+    android:baselineAligned="true">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_weight="55"
+        android:layout_height="fill_parent"></LinearLayout>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="Tiles"
+        android:id="@+id/tilesbutton"
+        android:layout_marginTop="6dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="6dp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="22dp"
+
+        android:background="@drawable/plank2"
+        android:onClick="process"
+        />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="Paints and Accessories"
+        android:id="@+id/paintbutton"
+        android:layout_marginTop="6dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="6dp"
+        android:onClick="process"
+        android:textColor="#ffffff"
+        android:textSize="22dp"
+        android:textStyle="bold"
+
+        android:background="@drawable/plank2" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="Bathroom Fittings"
+        android:onClick="process"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/bathbutton"
+        android:layout_marginTop="6dp"
+
+        android:layout_marginBottom="6dp"
+        android:textSize="22dp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+
+        android:background="@drawable/plank2" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_weight="20"
+        android:layout_height="fill_parent"></LinearLayout>
+
+
+</LinearLayout>

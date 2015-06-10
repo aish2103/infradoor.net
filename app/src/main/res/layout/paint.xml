@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/whitebricks"
+    android:weightSum="1"
+    >
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+
+        android:layout_gravity="center_horizontal">
+
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+
+            android:text="Paints And Accessories"
+            android:padding="10dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:id="@+id/textView"
+
+            />
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.9"
+
+
+        android:weightSum="1"
+        android:layout_gravity="center_horizontal">
+
+
+
+        <!-- TODO: Update blank fragment layout -->
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_horizontal|top">
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+
+                android:layout_weight="0.30">
+
+                <Button
+                    android:layout_width="250dp"
+                    android:layout_height="200dp"
+                    android:background="@drawable/bricks"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:id="@+id/paintbutton1"
+                    android:onClick="form1"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:text="paint1"
+                    android:id="@+id/paint1"
+                    android:layout_gravity="center" />
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_weight="0.30"
+                android:layout_height="0dp">
+                <Button
+                    android:layout_width="250dp"
+                    android:layout_height="200dp"
+android:background="@drawable/plank"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:id="@+id/paintbutton2"
+                    android:onClick="form1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:text="paint2"
+                    android:id="@+id/paint2"
+                    android:layout_gravity="center" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+
+                android:layout_weight="0.30">
+
+                <Button
+                    android:layout_width="250dp"
+                    android:layout_height="200dp"
+
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:id="@+id/paintbutton3"
+                    android:background="@drawable/plank2"
+                    android:onClick="form1"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:text="paint3"
+                    android:id="@+id/paint3"
+                    android:layout_gravity="center" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+</LinearLayout>
+
+    </ScrollView>
+</LinearLayout>
+
